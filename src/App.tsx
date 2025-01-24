@@ -78,6 +78,12 @@ function App() {
           avatar={<Avatar><Folder /></Avatar>}
           title="Shop 2"
         />
+        <CardMedia
+          component="img"
+          height="194"
+          image="./src/assets/red-sauce-pasta-1.jpg"
+        >
+        </CardMedia>
         <CardContent>
           <List>
             {salmon_ingredients.map((ingredient, index) => (
