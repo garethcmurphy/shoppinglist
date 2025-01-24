@@ -10,6 +10,17 @@ function App() {
     "Tomato Sauce",
   ]
 
+  const ingredient = {
+    name: "Pasta",
+    quantity: 1,
+    unit: "lb",
+    price: 1.99,
+  }
+
+  const chicken_ingredients = [
+    ingredient,
+  ];
+
   const salmon_ingredients = [
     "Salmon",
     "Salt",
